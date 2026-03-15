@@ -1,13 +1,10 @@
 {
   "name": "login-backend",
-  "homepage": "https://Nathiyamanickam.github.io/loginform",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "predeploy" :"npm run build",
-    "deploy" :"gh-pages -d build"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
